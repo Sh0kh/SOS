@@ -1,0 +1,125 @@
+.game{
+    position: relative;
+    background-image: url('../img/game__bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 961px;
+}
+.game__bg1{
+    background-image: url('../img/game__bg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.game__bg2{
+    background-image: url('../img/game__bg3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.game__swiper img{
+    width: 502px;
+    height: 612px;
+}
+.game__content__title h3{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.game__content__title h1{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    width: 710px;
+}
+.game__content p{
+    width: 364.851px;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+.game__contant__line{
+    width: 711.5px;
+    height: 2.994px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #FFF;
+    margin-bottom: 60px;
+}
+.game__wrapper{
+    margin-top: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.game__content__p{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+@media(max-width:1270px){
+    .game__wrapper{
+        flex-direction: column;
+    }
+    .game{
+        height: 1400px;
+    }
+}
+@media(max-width:1024px){
+   #hero{
+    margin-bottom: 400px;
+   }
+}
+@media(max-width:800px){
+    .game__content h1{
+        width: auto;
+    }
+    .game__contant__line
+    {
+        width: auto;
+    }
+    .game__content__title{
+        width: 100%;
+    }
+}
+@media(max-width:530px){
+    .game__swiper img{
+        width: 100%;
+        height: auto;
+
+    }
+    .game__content__p p {
+        width: 100%;
+    }
+}
+@media(max-width:430px){
+    .game__content__title h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:280px){
+    .game__content__title h1{
+        font-size: 40px;
+    }
+}

@@ -1,0 +1,100 @@
+.man{
+    position: relative;
+    background-image: url('../img/man__bg.png');
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+.man__bg{
+    padding-top: 180px;
+    background-image: url('../img/man__bg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.man__content h1{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-top: 9px;
+    margin-bottom: 70px;
+}
+.man__content h3{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.man__content__text h2{
+    color: #FFB548;
+    font-family: "Bebas Neue";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    cursor: pointer;
+    margin-top: 36px;
+    transition: 2s;
+}
+.man__content__text p{
+    transition: 5s;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+    width: 362.521px;
+    margin-bottom: 20px;
+    transition: 2s;
+}
+.man__content{
+    position: relative;
+    z-index: 1;
+    height: 400px;
+}
+.men__warpper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.man__content__text{
+    overflow: hidden;
+    transition: max-height 0.5s ease-out; /* Добавленная анимация замедления */
+    max-height: 100%;
+}
+@media(max-width:930px){
+    .man{
+        background-position: left;
+    }
+}
+@media(max-width:480px){
+    .man__content h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:320px){
+    .man__content h1{
+        font-size: 30px;
+    }
+    .man__content__text p{
+        width: auto;
+    }
+}

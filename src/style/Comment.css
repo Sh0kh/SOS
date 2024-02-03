@@ -1,0 +1,131 @@
+.comment{
+    background-image: url('../img/coment__bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 350px;
+    padding-bottom: 250px;
+    z-index: 1;
+}
+.comment__bg2{
+    background-image: url('../img/commetn__bg1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.commetn__content h3{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.commetn__content h1{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+.commetn__content p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+    width: 435px;
+    margin-bottom: 40px;
+}
+.comment__btn{
+    border-radius: 4px;
+    background: linear-gradient(195deg, #FFB548 11.27%, #F3AF34 90.4%);
+    width: 260.362px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #1A1917;
+    text-align: cente-r;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    display: block;
+    cursor: pointer;
+    border: none;
+    transition: 2s;
+}
+.comment__btn:hover{
+    transition: 2s;
+    background: white;
+}
+.comment__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment__card{
+    position: relative;
+    margin-right: 70px;
+}
+.midle__card{
+    position: absolute;
+    left: -521px;
+    top: -102px;
+}
+.buttun__card{
+    position: absolute;
+    top: 120px;
+    left: -380px;
+}
+.top__card{
+    position: absolute;
+    top: -320px;
+    left: -400px;
+}
+@media(max-width:1270px){
+    .comment__wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .buttun__card, .top__card, .midle__card{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+}
+@media(max-width:555px){
+    .CommenCard{
+        width: 100%;
+    }
+    .comment__card{
+        margin-right: 0px;
+    }
+    .comment p{
+        width: auto;
+    }
+    .comment h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:305px){
+   .comment button{
+    width: 100%;
+   }
+}

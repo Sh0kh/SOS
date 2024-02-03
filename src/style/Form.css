@@ -1,0 +1,124 @@
+.form{
+    background-color: #080A0B;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+}
+.form__foto{
+    position: relative;
+}
+.form__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.form h1{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+.form h3{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.form p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 122.222% */
+    width: 644px;
+    margin-bottom: 100px;
+}
+form input{
+    width: 366.922px;
+    height: 60px;
+    flex-shrink: 0;
+    border: none;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0 20px;
+    color: white;
+}
+form button{
+    width: 260px;
+    height: 60.251px;
+    flex-shrink: 0;
+    color: #1A1917;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
+    border: none;
+    transition: 2s;
+    background: linear-gradient(195deg, #FFB548 11.27%, #F3AF34 90.4%);
+}
+.form__btn:hover{
+    background: #FFF;
+    transition: 2s;
+}
+.form__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media(max-width:1230px){
+    .form__wrapper{
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+@media(max-width:660px){
+    form{
+        flex-direction: column;
+        gap: 30px;
+        width: auto;
+    }
+    .form p{
+        width: auto;
+    }
+}
+@media(max-width:600px){
+    .form__content h1{
+        font-size: 40px;
+    }
+}
+@media(max-width:490px){
+    .form__foto img{
+        width: 100%;
+    }
+}
+@media(max-width:400px){
+    form input{
+        width: 100%;
+    }
+    form button{
+        width: 100%;
+    }
+}
+@media(max-width:330px){
+    .form__content h1{
+        font-size: 30px;
+    }
+}

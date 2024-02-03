@@ -1,0 +1,83 @@
+.hero{
+margin-bottom: 520px;
+}
+.hero__bg{
+    background-image: url('../img/hero__bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1100px;
+    z-index: -2 ;
+}
+.hero__bg2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: -1;
+    background-image: url('../img/hero__bg2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero h1{
+    color: #FFF;
+    text-align: center;
+    font-family: "Bebas Neue";
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    margin-top: 250px;
+    margin-bottom: 10px;
+}
+.hero h3{
+    color: #FFF;
+    font-family: "Bebas Neue";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.hero button{
+    border-radius: 4px;
+    background: #FFB548;
+    width: 260.362px;
+    height: 60px;
+    color: #1A1917;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.hero button:hover{
+    transition: 1s;
+    background-color: #FFF;
+}
+@media(max-width:400px){
+    .hero h1{
+        font-size: 50px;
+    }
+}
+@media(max-width:290px){
+    .hero button{
+        width: auto;
+        padding: 10px;
+    }
+}
